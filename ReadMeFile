@@ -1,6 +1,7 @@
-
-
-Installations
+============ COURSE PROJECT ON GIT HUB FOR REF =============
+1. https://github.com/addamstj/kubernetes-course
+=================
+Installations (Plugins)
 1. breaking space
 2. yaml
 3. Kubernetes
@@ -23,3 +24,6 @@ INSTALL MINI Kube
 
 INSTALL VirtualBox 
 2.  https://www.virtualbox.org/wiki/Downloads
+============= IF YOU DON'T WANT TO INSTALL ANYTHING THEN FOLLOW ONLINE================
+1. https://training.play-with-kubernetes.com/
+======================================
