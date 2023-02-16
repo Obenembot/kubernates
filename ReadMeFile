@@ -1,0 +1,25 @@
+
+
+Installations
+1. breaking space
+2. yaml
+3. Kubernetes
+4. kubernetes support
+5. mini kube -> https://adamtheautomator.com/install-virtualbox-on-windows-10/
+
+==============================================
+1. pod
+    A pod is one or more container (A running docker image)
+2. Pod - Gets wrapped into a Replica Set
+    (It controls the number of ports e.g replicates the running Pod)
+3. Replica Set Gets wrapped into a Deployment
+
+4. All this gets wrapped in a yaml file
+
+==============================================
+INSTALL MINI Kube
+        https://minikube.sigs.k8s.io/docs/start/
+1. winget install minikube
+
+INSTALL VirtualBox 
+2.  https://www.virtualbox.org/wiki/Downloads
