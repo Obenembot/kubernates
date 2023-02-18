@@ -1,0 +1,39 @@
+#Sort the items by Category and by colour
+# Add a total at the end
+
+items:
+  - banana
+  - orange
+  - strawberry
+  - watermelon
+  - tomato
+  - grapes
+  - broccoli
+  - cabbage
+  - carrot
+  - peppers
+  - lettuce
+
+fruit:
+  red:
+    strawberry
+    tomato
+  orange:
+    orange
+  yellow:
+    banana
+  green:
+    watermelon
+    grapes
+  total: 6
+
+veg:
+  yellow:
+    - peppers
+  orange:
+    - carrot
+  green:
+    - broccoli
+    - cabbage
+    - lettuce
+  total: 5

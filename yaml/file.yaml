@@ -1,0 +1,18 @@
+
+shopping:
+  - eggs
+  - milk
+  - fruit
+
+purchased:
+  fruit:
+    apple: 1
+    banana: 2
+  needToBuy:
+    - coffer
+    - tea
+    - milk
+
+
+
+# yaml has 2 parts, a List(e.g shopping) and key Value (Dictionary)
