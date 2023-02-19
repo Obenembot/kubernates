@@ -27,3 +27,15 @@ INSTALL VirtualBox
 ============= IF YOU DON'T WANT TO INSTALL ANYTHING THEN FOLLOW ONLINE================
 1. https://training.play-with-kubernetes.com/
 ======================================
+
+1. Start Mini Kube
+   - minikube start
+   - minikube start --driver=virtualbox
+   - minikube start --no-vtx-check
+   - minikube start --driver=virtualbox --no-vtx-check
+   - minikube start --driver=docker
+   - minikube start --driver=hyperv
+
+2. Run or deploy a pod
+    kubectl create -f pod.yaml
+
