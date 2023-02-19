@@ -28,6 +28,8 @@ INSTALL VirtualBox
 1. https://training.play-with-kubernetes.com/
 ======================================
 
+
+======================================
 1. Start Mini Kube
    - minikube start
    - minikube start --driver=virtualbox

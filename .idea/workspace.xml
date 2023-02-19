@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="12b32af1-085e-44b4-9929-6c5530a26e44" name="Changes" comment="dictionary (Key value pair) and List e.g Items">
-      <change afterPath="$PROJECT_DIR$/ReadMeFile2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/deployments/pod.yaml" afterDir="false" />
+    <list default="true" id="12b32af1-085e-44b4-9929-6c5530a26e44" name="Changes" comment="added a pod. for deployment">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ReadMeFile" beforeDir="false" afterPath="$PROJECT_DIR$/ReadMeFile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReadMeFile2" beforeDir="false" afterPath="$PROJECT_DIR$/ReadMeFile2" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,7 +76,7 @@
       <updated>1675976768222</updated>
       <workItem from="1675976769609" duration="1252000" />
       <workItem from="1676584295812" duration="2238000" />
-      <workItem from="1676749059881" duration="8240000" />
+      <workItem from="1676749059881" duration="8708000" />
     </task>
     <task id="LOCAL-00001" summary="kube 1">
       <created>1676584413092</created>
@@ -100,7 +99,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676751568258</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="added a pod. for deployment">
+      <created>1676844181952</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1676844181952</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -110,6 +116,7 @@
     <MESSAGE value="kube 1" />
     <MESSAGE value="added link to git hub repo for referral" />
     <MESSAGE value="dictionary (Key value pair) and List e.g Items" />
-    <option name="LAST_COMMIT_MESSAGE" value="dictionary (Key value pair) and List e.g Items" />
+    <MESSAGE value="added a pod. for deployment" />
+    <option name="LAST_COMMIT_MESSAGE" value="added a pod. for deployment" />
   </component>
 </project>

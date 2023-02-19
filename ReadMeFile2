@@ -1,0 +1,9 @@
+  ====== kubernetes command ==========
+        1. First Start the Minikube Engine
+          ->   minikube start --driver=virtualbox
+        2. Navigate to where the pod.yaml file is and run (This will create the pod)
+          ->  kubectl create -f pod.yaml
+        3. To see the running pod, run
+           -> kubectl get pods
+        4. To delete a pod,
+           -> kubectl delete pod nginx
