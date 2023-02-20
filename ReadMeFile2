@@ -1,9 +1,16 @@
-  ====== kubernetes command ==========
+  ====== kubernetes command create and update a pod ==========
         1. First Start the Minikube Engine
           ->   minikube start --driver=virtualbox
         2. Navigate to where the pod.yaml file is and run (This will create the pod)
           ->  kubectl create -f pod.yaml
+                    to create a new pod
+          -> kubectl apply -f pod.yaml
+                    to update a pod
         3. To see the running pod, run
            -> kubectl get pods
         4. To delete a pod,
            -> kubectl delete pod nginx
+  =================== kubernetes command to create replicaset ==========
+        1. do same command like pod
+        2. to delete a replicaset
+            kubectl delete replicaset <nameofreplicaset>
