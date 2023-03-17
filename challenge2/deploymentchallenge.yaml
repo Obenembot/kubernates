@@ -1,0 +1,41 @@
+#create a file, deploymentchallenge.yaml
+#create a deployment
+#Deploymnet name: challenge
+#Must have 3 running pods
+#Image will be Ubuntu
+#Label: os:ubuntu
+#Runs on port 8080
+#Mustn't use more that 500mb of ram, CPU can be set to 500m
+# ================ TO RUN
+#kubectl create -f deploymentchallenge.yaml
+
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name:  challenge
+  labels:
+    name:  challenge
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      os: ubuntu
+  strategy:
+    rollingUpdate:
+      maxSurge: 1
+      maxUnavailable: 1
+    type: RollingUpdate
+  template:
+    metadata:
+      labels:
+        os: ubuntu
+    spec:
+      containers:
+        - name: ubuntucontainer
+          image: ubuntu:latest
+          resources:
+            limits:
+              memory: "500Mi"
+              cpu: "500m"
+          ports:
+            - containerPort: 8080

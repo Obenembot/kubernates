@@ -38,6 +38,7 @@ INSTALL VirtualBox
    - minikube start --driver=docker
    - minikube start --driver=hyperv
 
-2. Run or deploy a pod
-    kubectl create -f pod.yaml
+2. # Remove old content (minikube context)
+        minikube delete
+
 

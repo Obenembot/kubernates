@@ -5,8 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="12b32af1-085e-44b4-9929-6c5530a26e44" name="Changes" comment="added a pod. for deployment">
-      <change afterPath="$PROJECT_DIR$/deployments/replicaset.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/challenge2/deploymentchallenge.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/deployments/deployment.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/multi/deployment.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReadMeFile" beforeDir="false" afterPath="$PROJECT_DIR$/ReadMeFile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ReadMeFile2" beforeDir="false" afterPath="$PROJECT_DIR$/ReadMeFile2" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -28,25 +31,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/sampson/Desktop/COOL/projects/kubernates&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/sampson/Desktop/COOL/projects/kubernates/multi",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\sampson\Desktop\COOL\projects\kubernates\multi" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\sampson\Desktop\COOL\projects\kubernates" />
     </key>
@@ -81,6 +87,12 @@
       <workItem from="1676584295812" duration="2238000" />
       <workItem from="1676749059881" duration="11112000" />
       <workItem from="1676932302064" duration="906000" />
+      <workItem from="1677013775471" duration="443000" />
+      <workItem from="1677014241861" duration="171000" />
+      <workItem from="1677014431077" duration="916000" />
+      <workItem from="1677088255315" duration="9025000" />
+      <workItem from="1677591448499" duration="281000" />
+      <workItem from="1679087202895" duration="3281000" />
     </task>
     <task id="LOCAL-00001" summary="kube 1">
       <created>1676584413092</created>

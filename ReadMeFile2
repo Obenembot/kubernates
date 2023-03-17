@@ -14,3 +14,11 @@
         1. do same command like pod
         2. to delete a replicaset
             kubectl delete replicaset <nameofreplicaset>
+
+        =================== OTHER KUBE COMMANDS =========
+        1. kubectl get pods =========== to see running pods
+        1. kubectl get replicasets =========== to see all replicasets
+        2. kubectl get deployments =========== to see all deployments
+
+            NOTE: EVERYTHING IS WRAPPED WITHIN THE DEPLOYMENT.
+            SO ONCE YOU DELETE THE DEPLOYMENT, IT AUTO DELETE REPLICASET AND PODS.
