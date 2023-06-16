@@ -1,6 +1,11 @@
   ====== kubernetes command create and update a pod ==========
+      minikube start == to start up minikube
+      minikube status === see status
+      minikube delete === delete minikube local state
+      docker system prune === remove unused data
         1. First Start the Minikube Engine
           ->   minikube start --driver=virtualbox
+          ->   minikube start --driver=docker
         2. Navigate to where the pod.yaml file is and run (This will create the pod)
           ->  kubectl create -f pod.yaml
                     to create a new pod
@@ -14,6 +19,9 @@
         1. do same command like pod
         2. to delete a replicaset
             kubectl delete replicaset <nameofreplicaset>
+
+        =============== VIEW LOGS =====
+        1.  kubectl logs -f mydeployment-748f79b774-sj8ht
 
         =================== OTHER KUBE COMMANDS =========
         1. kubectl get pods =========== to see running pods
